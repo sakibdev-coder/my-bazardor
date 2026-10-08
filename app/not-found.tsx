@@ -1,0 +1,2 @@
+import { BackHome, Shell } from "./ui";
+export default function NotFound() { return <Shell><div className="not-found"><span>৪০৪</span><h1>পৃষ্ঠাটি খুঁজে পাওয়া যায়নি</h1><p>লিংকটি হয়তো বদলে গেছে বা ভুল হয়েছে।</p><BackHome /></div></Shell>; }

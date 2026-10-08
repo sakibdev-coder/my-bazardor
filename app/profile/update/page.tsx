@@ -1,0 +1,5 @@
+"use client";
+import { useRouter } from "next/navigation";
+import { FormEvent, useState } from "react";
+import { AuthGuard, Shell } from "../../ui";
+export default function UpdateProfile() { const router = useRouter(); const [name, setName] = useState(""); const submit = (event: FormEvent) => { event.preventDefault(); if (name) localStorage.setItem("bazardor-user", name); router.push("/profile"); }; return <Shell><AuthGuard><div className="auth-page"><div className="auth-panel"><span className="eyebrow">প্রোফাইল সেটিংস</span><h1>তথ্য আপডেট করুন</h1><p>আপনার অ্যাকাউন্টের নাম পরিবর্তন করুন।</p><form onSubmit={submit}><label>নাম<input value={name} onChange={(event) => setName(event.target.value)} placeholder="নতুন নাম" required /></label><button className="primary-button" type="submit">তথ্য আপডেট করুন <span>↗</span></button></form></div></div></AuthGuard></Shell>; }

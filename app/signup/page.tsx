@@ -1,0 +1,6 @@
+"use client";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { FormEvent, useState } from "react";
+import { Shell } from "../ui";
+export default function SignUp() { const router = useRouter(); const [error, setError] = useState(""); const submit = (event: FormEvent<HTMLFormElement>) => { event.preventDefault(); const form = new FormData(event.currentTarget); if (String(form.get("password")).length < 6) return setError("পাসওয়ার্ড কমপক্ষে ৬ অক্ষরের হতে হবে।"); router.push("/signin"); }; return <Shell><div className="auth-page"><div className="auth-panel"><span className="auth-icon">🌱</span><span className="eyebrow">নতুন যাত্রা</span><h1>অ্যাকাউন্ট তৈরি করুন</h1><p>বাজারের খবর সবসময় হাতের মুঠোয় রাখুন।</p><form onSubmit={submit}><label>নাম<input name="name" placeholder="আপনার নাম" required /></label><label>ইমেইল<input name="email" type="email" placeholder="আপনার ইমেইল" required /></label><label>পাসওয়ার্ড<input name="password" type="password" placeholder="কমপক্ষে ৬ অক্ষর" required /></label>{error && <div className="form-error">{error}</div>}<button className="primary-button" type="submit">অ্যাকাউন্ট তৈরি করুন <span>↗</span></button></form><p className="form-help">ইতিমধ্যে অ্যাকাউন্ট আছে? <Link href="/signin">সাইন ইন করুন</Link></p></div></div></Shell>; }

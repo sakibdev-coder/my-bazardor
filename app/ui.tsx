@@ -1,0 +1,25 @@
+"use client";
+
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import { categories, money, Product, products, toBangla } from "./data";
+
+export function Header() {
+  const pathname = usePathname();
+  const router = useRouter();
+  const [user, setUser] = useState<string | null>(null);
+  useEffect(() => { queueMicrotask(() => setUser(localStorage.getItem("bazardor-user"))); }, []);
+  const signOut = () => { localStorage.removeItem("bazardor-user"); setUser(null); router.push("/"); };
+  return <header className="site-header"><div className="nav-wrap"><Link href="/" className="brand"><span className="brand-mark">🛒</span><span><strong>বাজার দর</strong><small>আজ ২৪ আশ্বিন ১৪৩৩</small></span></Link><nav className="main-nav" aria-label="প্রধান নেভিগেশন"><Link className={pathname === "/" ? "active" : ""} href="/">হোম</Link>{categories.slice(0, 4).map((category) => <Link key={category.slug} className={pathname === `/category/${category.slug}` ? "active" : ""} href={`/category/${category.slug}`}>{category.label}</Link>)}</nav><div className="auth-nav">{user ? <><Link href="/profile" className="profile-pill">{user}</Link><button onClick={signOut} className="text-button">সাইন আউট</button></> : <><Link href="/signin" className="text-button">সাইন ইন</Link><Link href="/signup" className="signup-button">সাইন আপ <span>↗</span></Link></>}</div></div><div className="ticker"><div className="ticker-track">{[...products, ...products].map((product, index) => <span key={`${product.id}-${index}`}><b>{product.emoji}</b> {product.name} <strong>{money(product.price)}</strong> <i className={product.change >= 0 ? "up" : "down"}>{product.change >= 0 ? "▲" : "▼"} {toBangla(Math.abs(product.change))}%</i></span>)}</div></div></header>;
+}
+
+export function Footer() { return <footer><div><span className="footer-logo">বাজার দর</span><p>প্রয়োজনীয় পণ্যের দাম এক নজরে।</p></div><p>সকল দাম সম্ভাব্য; বাজার অবস্থার ওপর নির্ভর করে পরিবর্তিত হয়।</p></footer>; }
+export function Shell({ children }: { children: React.ReactNode }) { return <><Header /><main>{children}</main><Footer /></>; }
+export function ProductCard({ product }: { product: Product }) { return <Link href={`/product/${product.slug}`} className="product-card"><div className="product-emoji">{product.emoji}</div><div className="product-info"><span className="category-label">{product.categoryLabel}</span><h3>{product.name}</h3><p>{product.unit}</p><div className="price-row"><div><small>আজকের দাম</small><strong>{money(product.price)}</strong></div><ChangeBadge change={product.change} /></div></div></Link>; }
+export function ChangeBadge({ change }: { change: number }) { return <span className={`change-badge ${change > 0 ? "up" : change < 0 ? "down" : "flat"}`}>{change > 0 ? "▲" : change < 0 ? "▼" : "—"} {toBangla(Math.abs(change))}%</span>; }
+export function ProductGrid({ items }: { items: Product[] }) { return <div className="product-grid">{items.map((product) => <ProductCard key={product.id} product={product} />)}</div>; }
+export function SkeletonGrid() { return <div className="product-grid">{Array.from({ length: 6 }).map((_, index) => <div className="skeleton-card" key={index}><div className="skeleton circle" /><div className="skeleton line" /><div className="skeleton short" /><div className="skeleton price" /></div>)}</div>; }
+export function BackHome() { return <Link className="primary-button" href="/">হোম পেজে ফিরে যান <span>↗</span></Link>; }
+export function AuthGuard({ children }: { children: React.ReactNode }) { const router = useRouter(); const [ready, setReady] = useState(false); useEffect(() => { queueMicrotask(() => { if (!localStorage.getItem("bazardor-user")) router.replace("/signin?next=/profile"); else setReady(true); }); }, [router]); return ready ? children : <div className="auth-loading"><div className="spinner" />অ্যাকাউন্ট যাচাই হচ্ছে...</div>; }
+export function useProducts() { const [items, setItems] = useState<Product[]>([]); const [loading, setLoading] = useState(true); useEffect(() => { let active = true; fetch("https://api.api-store.workers.dev/api/bazardor/products").then((response) => response.ok ? response.json() : Promise.reject()).then((data) => { if (!active || !Array.isArray(data)) return; const remote = data.map((item: Partial<Product>, index: number) => ({ ...products[index % products.length], ...item, slug: item.slug || products[index % products.length].slug, id: Number(item.id || index + 1), price: Number(item.price || products[index % products.length].price), change: Number(item.change || 0) })); setItems(remote); }).catch(() => { if (active) setItems(products); }).finally(() => active && setLoading(false)); return () => { active = false; }; }, []); return { items: items.length ? items : products, loading }; }

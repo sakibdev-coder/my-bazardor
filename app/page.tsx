@@ -1,0 +1,11 @@
+"use client";
+
+import Link from "next/link";
+import { ProductGrid, Shell, SkeletonGrid, useProducts } from "./ui";
+
+export default function Home() {
+  const { items, loading } = useProducts();
+  const risers = [...items].sort((a, b) => b.change - a.change).slice(0, 6);
+  const fallers = [...items].sort((a, b) => a.change - b.change).slice(0, 6);
+  return <Shell><section className="hero"><div className="hero-copy"><span className="eyebrow">প্রতিদিনের বাজার, সহজ নজরে</span><h1>আজকের দামে<br /><em>সঠিক সিদ্ধান্ত</em> নিন।</h1><p>আপনার নিত্যপ্রয়োজনীয় পণ্যের সর্বশেষ বাজারদর এক জায়গায়। নির্ভরযোগ্য তথ্য, প্রতিদিন আপডেট।</p><Link href="#সব-পণ্য" className="primary-button">সব পণ্য দেখুন <span>↓</span></Link><div className="hero-note"><span>●</span> ৩২টি বাজার থেকে তথ্য সংগ্রহ করা হচ্ছে</div></div><div className="hero-art"><div className="sun" /><div className="market-basket">🧺<span>আজকের<br />তাজা বাজার</span></div><div className="art-item art-rice">🍚</div><div className="art-item art-veg">🥬</div><div className="art-item art-fish">🐟</div><div className="art-item art-tomato">🍅</div><div className="art-sticker">সতেজ<br /><b>বাজার</b></div></div></section><section className="trend-section"><div className="section-heading"><div><span className="eyebrow">বাজারের গতিপথ</span><h2>আজকের <em>পরিবর্তন</em></h2></div><span className="updated">● সর্বশেষ আপডেট ১০ মিনিট আগে</span></div><div className="trend-columns"><div><div className="trend-title rise"><span>▲</span><div><h3>আজ দাম বেড়েছে</h3><p>চাহিদা বাড়ায় দাম একটু উর্ধ্বমুখী</p></div></div>{loading ? <SkeletonGrid /> : <ProductGrid items={risers} />}</div><div><div className="trend-title fall"><span>▼</span><div><h3>আজ দাম কমেছে</h3><p>আজকের বাজারে স্বস্তির খবর</p></div></div>{loading ? <SkeletonGrid /> : <ProductGrid items={fallers} />}</div></div></section><section className="all-products" id="সব-পণ্য"><div className="section-heading"><div><span className="eyebrow">এক নজরে পুরো বাজার</span><h2>সব <em>পণ্য</em></h2><p>আপনার প্রয়োজনীয় সব পণ্যের আজকের গড় বাজারদর।</p></div><Link href="/category/sobji" className="outline-button">ক্যাটাগরি দেখুন <span>↗</span></Link></div>{loading ? <SkeletonGrid /> : <ProductGrid items={items} />}</section></Shell>;
+}
