@@ -6,13 +6,45 @@ import { useEffect, useState } from "react";
 import { Toaster, toast } from "react-hot-toast";
 import { categories, money, Product, products, toBangla } from "./data";
 
+function formatCurrentDateTime(date: Date) {
+  const dateText = new Intl.DateTimeFormat("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "Asia/Dhaka",
+  }).format(date);
+  const timeText = new Intl.DateTimeFormat("bn-BD", {
+    hour: "numeric",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: true,
+    timeZone: "Asia/Dhaka",
+  }).format(date);
+
+  return `আজ ${dateText} · ${timeText}`;
+}
+
+export function LiveDateTime() {
+  const [dateTime, setDateTime] = useState<string | null>(null);
+
+  useEffect(() => {
+    const updateDateTime = () => setDateTime(formatCurrentDateTime(new Date()));
+    updateDateTime();
+    const interval = window.setInterval(updateDateTime, 1000);
+
+    return () => window.clearInterval(interval);
+  }, []);
+
+  return <small className="live-date-time">{dateTime ?? "তারিখ ও সময় লোড হচ্ছে..."}</small>;
+}
+
 export function Header() {
   const pathname = usePathname();
   const router = useRouter();
   const [user, setUser] = useState<string | null>(null);
   useEffect(() => { queueMicrotask(() => setUser(localStorage.getItem("bazardor-user"))); }, []);
   const signOut = () => { localStorage.removeItem("bazardor-user"); setUser(null); toast.success("আপনি সফলভাবে সাইন আউট করেছেন"); router.push("/"); };
-  return <header className="site-header"><div className="nav-wrap"><Link href="/" className="brand"><span className="brand-mark">🛒</span><span><strong>বাজার দর</strong><small>আজ ২৪ আশ্বিন ১৪৩৩</small></span></Link><nav className="main-nav" aria-label="প্রধান নেভিগেশন"><Link className={pathname === "/" ? "active" : ""} href="/">হোম</Link>{categories.map((category) => <Link key={category.slug} className={pathname === `/category/${category.slug}` ? "active" : ""} href={`/category/${category.slug}`}>{category.label}</Link>)}</nav><div className="auth-nav">{user ? <><Link href="/profile" className="profile-pill">{user}</Link><button onClick={signOut} className="text-button">সাইন আউট</button></> : <><Link href="/signin" className="text-button">সাইন ইন</Link><Link href="/signup" className="signup-button">সাইন আপ <span>↗</span></Link></>}</div></div><div className="ticker"><div className="ticker-track">{[...products, ...products].map((product, index) => <span key={`${product.id}-${index}`}><b>{product.emoji}</b> {product.name} <strong>{money(product.price)}</strong> <i className={product.change >= 0 ? "up" : "down"}>{product.change >= 0 ? "▲" : "▼"} {toBangla(Math.abs(product.change))}%</i></span>)}</div></div></header>;
+  return <header className="site-header"><div className="nav-wrap"><Link href="/" className="brand"><span className="brand-mark">🛒</span><span><strong>বাজার দর</strong><LiveDateTime /></span></Link><nav className="main-nav" aria-label="প্রধান নেভিগেশন"><Link className={pathname === "/" ? "active" : ""} href="/">হোম</Link>{categories.map((category) => <Link key={category.slug} className={pathname === `/category/${category.slug}` ? "active" : ""} href={`/category/${category.slug}`}>{category.label}</Link>)}</nav><div className="auth-nav">{user ? <><Link href="/profile" className="profile-pill">{user}</Link><button onClick={signOut} className="text-button">সাইন আউট</button></> : <><Link href="/signin" className="text-button">সাইন ইন</Link><Link href="/signup" className="signup-button">সাইন আপ <span>↗</span></Link></>}</div></div><div className="ticker"><div className="ticker-track">{[...products, ...products].map((product, index) => <span key={`${product.id}-${index}`}><b>{product.emoji}</b> {product.name} <strong>{money(product.price)}</strong> <i className={product.change >= 0 ? "up" : "down"}>{product.change >= 0 ? "▲" : "▼"} {toBangla(Math.abs(product.change))}%</i></span>)}</div></div></header>;
 }
 
 export function Footer() { return <footer><div><span className="footer-logo">বাজার দর</span><p>প্রয়োজনীয় পণ্যের দাম এক নজরে।</p></div><p>সকল দাম সম্ভাব্য; বাজার অবস্থার ওপর নির্ভর করে পরিবর্তিত হয়।</p></footer>; }
