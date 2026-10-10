@@ -1,0 +1,3500 @@
+[
+  {
+    "id": 1,
+    "slug": "sorno-machi-chal",
+    "name": "স্বর্ণমাছি চাল",
+    "emoji": "🍚",
+    "category": "chal",
+    "categoryLabel": "চাল",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 148,
+    "yesterday": 145,
+    "lastWeek": 142,
+    "lastMonth": 138,
+    "change": 2.1,
+    "dir": "up",
+    "description": "স্বর্ণমাছি চাল-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 132,
+    "maxPrice": 165,
+    "avgPrice": 148,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 146,
+        "max": 165,
+        "avg": 156
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 143,
+        "max": 159,
+        "avg": 151
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 142,
+        "max": 163,
+        "avg": 153
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 138,
+        "max": 155,
+        "avg": 147
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 134,
+        "max": 148,
+        "avg": 141
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 135,
+        "max": 152,
+        "avg": 144
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 132,
+        "max": 146,
+        "avg": 139
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 135,
+        "max": 155,
+        "avg": 145
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 134,
+        "max": 151,
+        "avg": 143
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 139,
+        "max": 154,
+        "avg": 147
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 143,
+        "max": 165,
+        "avg": 154
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 141,
+        "max": 158,
+        "avg": 150
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "miniket-chal",
+    "name": "মিনিকেট চাল",
+    "emoji": "🍚",
+    "category": "chal",
+    "categoryLabel": "চাল",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 99,
+    "yesterday": 102,
+    "lastWeek": 105,
+    "lastMonth": 100,
+    "change": -2.9,
+    "dir": "down",
+    "description": "মিনিকেট চাল-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 88,
+    "maxPrice": 110,
+    "avgPrice": 98,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 98,
+        "max": 110,
+        "avg": 104
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 96,
+        "max": 106,
+        "avg": 101
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 95,
+        "max": 109,
+        "avg": 102
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 92,
+        "max": 104,
+        "avg": 98
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 89,
+        "max": 99,
+        "avg": 94
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 90,
+        "max": 102,
+        "avg": 96
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 88,
+        "max": 98,
+        "avg": 93
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 90,
+        "max": 104,
+        "avg": 97
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 89,
+        "max": 101,
+        "avg": 95
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 93,
+        "max": 103,
+        "avg": 98
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 96,
+        "max": 110,
+        "avg": 103
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 94,
+        "max": 106,
+        "avg": 100
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "nazir-chal",
+    "name": "নাজির চাল",
+    "emoji": "🍚",
+    "category": "chal",
+    "categoryLabel": "চাল",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 74,
+    "yesterday": 74,
+    "lastWeek": 72,
+    "lastMonth": 70,
+    "change": 0,
+    "dir": "flat",
+    "description": "নাজির চাল-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 66,
+    "maxPrice": 82,
+    "avgPrice": 74,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 73,
+        "max": 82,
+        "avg": 78
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 72,
+        "max": 79,
+        "avg": 76
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 71,
+        "max": 82,
+        "avg": 77
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 69,
+        "max": 78,
+        "avg": 74
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 67,
+        "max": 74,
+        "avg": 71
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 67,
+        "max": 76,
+        "avg": 72
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 66,
+        "max": 73,
+        "avg": 70
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 67,
+        "max": 78,
+        "avg": 73
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 67,
+        "max": 75,
+        "avg": 71
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 70,
+        "max": 77,
+        "avg": 74
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 72,
+        "max": 82,
+        "avg": 77
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 70,
+        "max": 79,
+        "avg": 75
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "batam-size-chal",
+    "name": "বাটাম সাইজ চাল",
+    "emoji": "🍚",
+    "category": "chal",
+    "categoryLabel": "চাল",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 66,
+    "yesterday": 64,
+    "lastWeek": 63,
+    "lastMonth": 61,
+    "change": 3.7,
+    "dir": "up",
+    "description": "বাটাম সাইজ চাল-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 59,
+    "maxPrice": 73,
+    "avgPrice": 66,
+    "markets": [
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 59,
+        "max": 65,
+        "avg": 62
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 60,
+        "max": 66,
+        "avg": 63
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 60,
+        "max": 67,
+        "avg": 63.5
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 60,
+        "max": 68,
+        "avg": 64
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 60,
+        "max": 69,
+        "avg": 64.5
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 58,
+        "max": 69,
+        "avg": 65
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 62,
+        "max": 69,
+        "avg": 65.5
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 63,
+        "max": 70,
+        "avg": 67
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 64,
+        "max": 76,
+        "avg": 67.5
+      },
+      {
+        "market": "চৌদ্দগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 63,
+        "max": 73,
+        "avg": 68
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 64,
+        "max": 73,
+        "avg": 68.5
+      },
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 65,
+        "max": 73,
+        "avg": 69
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "mosur-dal",
+    "name": "মসুর ডাল",
+    "emoji": "🫘",
+    "category": "dal",
+    "categoryLabel": "ডাল",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 142,
+    "yesterday": 138,
+    "lastWeek": 135,
+    "lastMonth": 132,
+    "change": 2.9,
+    "dir": "up",
+    "description": "মসুর ডাল-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 127,
+    "maxPrice": 158,
+    "avgPrice": 141,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 140,
+        "max": 158,
+        "avg": 149
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 138,
+        "max": 152,
+        "avg": 145
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 136,
+        "max": 156,
+        "avg": 146
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 132,
+        "max": 149,
+        "avg": 141
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 128,
+        "max": 142,
+        "avg": 135
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 129,
+        "max": 146,
+        "avg": 138
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 127,
+        "max": 140,
+        "avg": 134
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 129,
+        "max": 149,
+        "avg": 139
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 128,
+        "max": 144,
+        "avg": 136
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 134,
+        "max": 148,
+        "avg": 141
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 137,
+        "max": 158,
+        "avg": 148
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 135,
+        "max": 152,
+        "avg": 144
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "mug-dal",
+    "name": "মুগ ডাল",
+    "emoji": "🫘",
+    "category": "dal",
+    "categoryLabel": "ডাল",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 135,
+    "yesterday": 135,
+    "lastWeek": 130,
+    "lastMonth": 128,
+    "change": 0,
+    "dir": "flat",
+    "description": "মুগ ডাল-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 121,
+    "maxPrice": 150,
+    "avgPrice": 135,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 133,
+        "max": 150,
+        "avg": 142
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 131,
+        "max": 145,
+        "avg": 138
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 129,
+        "max": 149,
+        "avg": 139
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 126,
+        "max": 142,
+        "avg": 134
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 122,
+        "max": 135,
+        "avg": 129
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 123,
+        "max": 139,
+        "avg": 131
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 121,
+        "max": 133,
+        "avg": 127
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 123,
+        "max": 142,
+        "avg": 133
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 122,
+        "max": 137,
+        "avg": 130
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 127,
+        "max": 140,
+        "avg": 134
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 131,
+        "max": 150,
+        "avg": 141
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 128,
+        "max": 145,
+        "avg": 137
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "chola-dal",
+    "name": "ছোলা",
+    "emoji": "🫘",
+    "category": "dal",
+    "categoryLabel": "ডাল",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 120,
+    "yesterday": 123,
+    "lastWeek": 122,
+    "lastMonth": 118,
+    "change": -2.4,
+    "dir": "down",
+    "description": "ছোলা-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 107,
+    "maxPrice": 134,
+    "avgPrice": 119,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 118,
+        "max": 134,
+        "avg": 126
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 116,
+        "max": 129,
+        "avg": 123
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 115,
+        "max": 132,
+        "avg": 124
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 112,
+        "max": 126,
+        "avg": 119
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 108,
+        "max": 120,
+        "avg": 114
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 109,
+        "max": 123,
+        "avg": 116
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 107,
+        "max": 118,
+        "avg": 113
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 109,
+        "max": 126,
+        "avg": 118
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 108,
+        "max": 122,
+        "avg": 115
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 113,
+        "max": 125,
+        "avg": 119
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 116,
+        "max": 134,
+        "avg": 125
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 114,
+        "max": 128,
+        "avg": 121
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "aman-dal-khosasila",
+    "name": "আমন ডাল (খোসাসিলা)",
+    "emoji": "🫘",
+    "category": "dal",
+    "categoryLabel": "ডাল",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 156,
+    "yesterday": 152,
+    "lastWeek": 148,
+    "lastMonth": 145,
+    "change": 2.6,
+    "dir": "up",
+    "description": "আমন ডাল (খোসাসিলা)-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 139,
+    "maxPrice": 174,
+    "avgPrice": 155,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 154,
+        "max": 174,
+        "avg": 164
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 151,
+        "max": 167,
+        "avg": 159
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 149,
+        "max": 172,
+        "avg": 161
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 145,
+        "max": 164,
+        "avg": 155
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 141,
+        "max": 156,
+        "avg": 149
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 142,
+        "max": 160,
+        "avg": 151
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 139,
+        "max": 154,
+        "avg": 147
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 142,
+        "max": 164,
+        "avg": 153
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 141,
+        "max": 159,
+        "avg": 150
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 147,
+        "max": 162,
+        "avg": 155
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 151,
+        "max": 174,
+        "avg": 163
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 148,
+        "max": 167,
+        "avg": 158
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "sorishar-tel",
+    "name": "সরিষার তেল",
+    "emoji": "🫙",
+    "category": "tel",
+    "categoryLabel": "তেল",
+    "unit": "প্রতি লিটার",
+    "unitShort": "লিটার",
+    "price": 192,
+    "yesterday": 188,
+    "lastWeek": 184,
+    "lastMonth": 180,
+    "change": 2.1,
+    "dir": "up",
+    "description": "সরিষার তেল-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 171,
+    "maxPrice": 214,
+    "avgPrice": 191,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 190,
+        "max": 214,
+        "avg": 202
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 186,
+        "max": 206,
+        "avg": 196
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 184,
+        "max": 212,
+        "avg": 198
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 179,
+        "max": 201,
+        "avg": 190
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 173,
+        "max": 192,
+        "avg": 183
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 175,
+        "max": 197,
+        "avg": 186
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 171,
+        "max": 190,
+        "avg": 181
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 175,
+        "max": 201,
+        "avg": 188
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 173,
+        "max": 195,
+        "avg": 184
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 181,
+        "max": 200,
+        "avg": 191
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 186,
+        "max": 214,
+        "avg": 200
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 182,
+        "max": 206,
+        "avg": 194
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "pam-tel",
+    "name": "পাম তেল",
+    "emoji": "🛢️",
+    "category": "tel",
+    "categoryLabel": "তেল",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 168,
+    "yesterday": 172,
+    "lastWeek": 175,
+    "lastMonth": 178,
+    "change": -2.3,
+    "dir": "down",
+    "description": "পাম তেল-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 150,
+    "maxPrice": 187,
+    "avgPrice": 167,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 166,
+        "max": 187,
+        "avg": 177
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 163,
+        "max": 180,
+        "avg": 172
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 161,
+        "max": 185,
+        "avg": 173
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 156,
+        "max": 176,
+        "avg": 166
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 152,
+        "max": 168,
+        "avg": 160
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 153,
+        "max": 173,
+        "avg": 163
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 150,
+        "max": 166,
+        "avg": 158
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 153,
+        "max": 176,
+        "avg": 165
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 152,
+        "max": 171,
+        "avg": 162
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 158,
+        "max": 175,
+        "avg": 167
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 162,
+        "max": 187,
+        "avg": 175
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 159,
+        "max": 180,
+        "avg": 170
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "ghani-banga-sorishar-tel",
+    "name": "ঘানি ভাঙা সরিষার তেল",
+    "emoji": "🫙",
+    "category": "tel",
+    "categoryLabel": "তেল",
+    "unit": "প্রতি লিটার",
+    "unitShort": "লিটার",
+    "price": 215,
+    "yesterday": 210,
+    "lastWeek": 198,
+    "lastMonth": 195,
+    "change": 2.4,
+    "dir": "up",
+    "description": "ঘানি ভাঙা সরিষার তেল-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 179,
+    "maxPrice": 254,
+    "avgPrice": 214,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 225,
+        "max": 254,
+        "avg": 240
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 221,
+        "max": 244,
+        "avg": 233
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 206,
+        "max": 237,
+        "avg": 222
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 200,
+        "max": 226,
+        "avg": 213
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 179,
+        "max": 197,
+        "avg": 188
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 180,
+        "max": 203,
+        "avg": 192
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 192,
+        "max": 212,
+        "avg": 202
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 196,
+        "max": 225,
+        "avg": 211
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 194,
+        "max": 219,
+        "avg": 207
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 202,
+        "max": 223,
+        "avg": 213
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 208,
+        "max": 239,
+        "avg": 224
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 204,
+        "max": 230,
+        "avg": 217
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "alu",
+    "name": "আলু",
+    "emoji": "🥔",
+    "category": "sobji",
+    "categoryLabel": "সবজি",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 30,
+    "yesterday": 32,
+    "lastWeek": 34,
+    "lastMonth": 36,
+    "change": -6.2,
+    "dir": "down",
+    "description": "আলু-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 24,
+    "maxPrice": 36,
+    "avgPrice": 30,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 30,
+        "max": 33,
+        "avg": 32
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 29,
+        "max": 32,
+        "avg": 31
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 32,
+        "max": 36,
+        "avg": 34
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 31,
+        "max": 35,
+        "avg": 33
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 27,
+        "max": 30,
+        "avg": 29
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 27,
+        "max": 31,
+        "avg": 29
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 27,
+        "max": 30,
+        "avg": 29
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 27,
+        "max": 31,
+        "avg": 29
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 24,
+        "max": 27,
+        "avg": 26
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 25,
+        "max": 27,
+        "avg": 26
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 29,
+        "max": 33,
+        "avg": 31
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 28,
+        "max": 32,
+        "avg": 30
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "peyaj",
+    "name": "পেঁয়াজ",
+    "emoji": "🧅",
+    "category": "sobji",
+    "categoryLabel": "সবজি",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 54,
+    "yesterday": 48,
+    "lastWeek": 45,
+    "lastMonth": 60,
+    "change": 12.5,
+    "dir": "up",
+    "description": "পেঁয়াজ-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 41,
+    "maxPrice": 65,
+    "avgPrice": 54,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 58,
+        "max": 65,
+        "avg": 62
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 57,
+        "max": 62,
+        "avg": 60
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 52,
+        "max": 60,
+        "avg": 56
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 50,
+        "max": 57,
+        "avg": 54
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 49,
+        "max": 54,
+        "avg": 52
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 49,
+        "max": 56,
+        "avg": 53
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 41,
+        "max": 46,
+        "avg": 44
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 42,
+        "max": 49,
+        "avg": 46
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 49,
+        "max": 55,
+        "avg": 52
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 51,
+        "max": 56,
+        "avg": 54
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 52,
+        "max": 60,
+        "avg": 56
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 51,
+        "max": 58,
+        "avg": 55
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "kaccha-moric",
+    "name": "কাঁচামরিচ",
+    "emoji": "🌶️",
+    "category": "sobji",
+    "categoryLabel": "সবজি",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 92,
+    "yesterday": 105,
+    "lastWeek": 120,
+    "lastMonth": 140,
+    "change": -12.4,
+    "dir": "down",
+    "description": "কাঁচামরিচ-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 82,
+    "maxPrice": 102,
+    "avgPrice": 92,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 91,
+        "max": 102,
+        "avg": 97
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 89,
+        "max": 99,
+        "avg": 94
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 88,
+        "max": 101,
+        "avg": 95
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 86,
+        "max": 97,
+        "avg": 92
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 83,
+        "max": 92,
+        "avg": 88
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 84,
+        "max": 95,
+        "avg": 90
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 82,
+        "max": 91,
+        "avg": 87
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 84,
+        "max": 96,
+        "avg": 90
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 83,
+        "max": 94,
+        "avg": 89
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 87,
+        "max": 96,
+        "avg": 92
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 89,
+        "max": 102,
+        "avg": 96
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 87,
+        "max": 98,
+        "avg": 93
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "begun",
+    "name": "বেগুন",
+    "emoji": "🍆",
+    "category": "sobji",
+    "categoryLabel": "সবজি",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 44,
+    "yesterday": 42,
+    "lastWeek": 40,
+    "lastMonth": 45,
+    "change": 4.8,
+    "dir": "up",
+    "description": "বেগুন-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 39,
+    "maxPrice": 49,
+    "avgPrice": 44,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 43,
+        "max": 49,
+        "avg": 46
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 43,
+        "max": 47,
+        "avg": 45
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 42,
+        "max": 48,
+        "avg": 45
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 41,
+        "max": 46,
+        "avg": 44
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 40,
+        "max": 44,
+        "avg": 42
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 40,
+        "max": 45,
+        "avg": 43
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 39,
+        "max": 43,
+        "avg": 41
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 40,
+        "max": 46,
+        "avg": 43
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 40,
+        "max": 45,
+        "avg": 43
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 41,
+        "max": 46,
+        "avg": 44
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 43,
+        "max": 49,
+        "avg": 46
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 42,
+        "max": 47,
+        "avg": 45
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "dhenders",
+    "name": "ঢেঁড়স",
+    "emoji": "🟢",
+    "category": "sobji",
+    "categoryLabel": "সবজি",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 38,
+    "yesterday": 38,
+    "lastWeek": 36,
+    "lastMonth": 35,
+    "change": 0,
+    "dir": "flat",
+    "description": "ঢেঁড়স-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 34,
+    "maxPrice": 42,
+    "avgPrice": 38,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 38,
+        "max": 42,
+        "avg": 40
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 37,
+        "max": 41,
+        "avg": 39
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 36,
+        "max": 42,
+        "avg": 39
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 35,
+        "max": 40,
+        "avg": 38
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 34,
+        "max": 38,
+        "avg": 36
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 35,
+        "max": 39,
+        "avg": 37
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 34,
+        "max": 38,
+        "avg": 36
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 35,
+        "max": 40,
+        "avg": 38
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 34,
+        "max": 39,
+        "avg": 37
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 36,
+        "max": 40,
+        "avg": 38
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 37,
+        "max": 42,
+        "avg": 40
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 36,
+        "max": 41,
+        "avg": 39
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "rui-mach",
+    "name": "রুই মাছ",
+    "emoji": "🐟",
+    "category": "mach",
+    "categoryLabel": "মাছ",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 46,
+    "yesterday": 44,
+    "lastWeek": 42,
+    "lastMonth": 40,
+    "change": 4.5,
+    "dir": "up",
+    "description": "রুই মাছ-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 41,
+    "maxPrice": 51,
+    "avgPrice": 46,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 45,
+        "max": 51,
+        "avg": 48
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 45,
+        "max": 49,
+        "avg": 47
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 44,
+        "max": 51,
+        "avg": 48
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 43,
+        "max": 48,
+        "avg": 46
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 42,
+        "max": 46,
+        "avg": 44
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 42,
+        "max": 47,
+        "avg": 45
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 41,
+        "max": 45,
+        "avg": 43
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 42,
+        "max": 48,
+        "avg": 45
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 42,
+        "max": 47,
+        "avg": 45
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 43,
+        "max": 48,
+        "avg": 46
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 44,
+        "max": 51,
+        "avg": 48
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 44,
+        "max": 49,
+        "avg": 47
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "telapiya-mach",
+    "name": "তেলাপিয়া",
+    "emoji": "🐟",
+    "category": "mach",
+    "categoryLabel": "মাছ",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 36,
+    "yesterday": 36,
+    "lastWeek": 35,
+    "lastMonth": 34,
+    "change": 0,
+    "dir": "flat",
+    "description": "তেলাপিয়া-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 32,
+    "maxPrice": 40,
+    "avgPrice": 36,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 36,
+        "max": 40,
+        "avg": 38
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 35,
+        "max": 39,
+        "avg": 37
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 34,
+        "max": 40,
+        "avg": 37
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 34,
+        "max": 38,
+        "avg": 36
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 32,
+        "max": 36,
+        "avg": 34
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 33,
+        "max": 37,
+        "avg": 35
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 32,
+        "max": 36,
+        "avg": 34
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 33,
+        "max": 38,
+        "avg": 36
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 32,
+        "max": 37,
+        "avg": 35
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 34,
+        "max": 37,
+        "avg": 36
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 35,
+        "max": 40,
+        "avg": 38
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 34,
+        "max": 39,
+        "avg": 37
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "ilish-mach",
+    "name": "ইলিশ মাছ",
+    "emoji": "🐠",
+    "category": "mach",
+    "categoryLabel": "মাছ",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 1850,
+    "yesterday": 1790,
+    "lastWeek": 1700,
+    "lastMonth": 1650,
+    "change": 3.4,
+    "dir": "up",
+    "description": "ইলিশ মাছ-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 1463,
+    "maxPrice": 2430,
+    "avgPrice": 1814,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 2155,
+        "max": 2430,
+        "avg": 2293
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 2115,
+        "max": 2338,
+        "avg": 2227
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 1506,
+        "max": 1733,
+        "avg": 1620
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 1463,
+        "max": 1650,
+        "avg": 1557
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 1670,
+        "max": 1845,
+        "avg": 1758
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 1687,
+        "max": 1902,
+        "avg": 1795
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 1652,
+        "max": 1826,
+        "avg": 1739
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 1686,
+        "max": 1940,
+        "avg": 1813
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 1469,
+        "max": 1657,
+        "avg": 1563
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 1531,
+        "max": 1692,
+        "avg": 1612
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 1789,
+        "max": 2059,
+        "avg": 1924
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 1756,
+        "max": 1981,
+        "avg": 1869
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "katla-mach",
+    "name": "কাতলা মাছ",
+    "emoji": "🐠",
+    "category": "mach",
+    "categoryLabel": "মাছ",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 43,
+    "yesterday": 45,
+    "lastWeek": 44,
+    "lastMonth": 42,
+    "change": -4.4,
+    "dir": "down",
+    "description": "কাতলা মাছ-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 38,
+    "maxPrice": 48,
+    "avgPrice": 43,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 42,
+        "max": 48,
+        "avg": 45
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 42,
+        "max": 46,
+        "avg": 44
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 41,
+        "max": 47,
+        "avg": 44
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 40,
+        "max": 45,
+        "avg": 43
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 39,
+        "max": 43,
+        "avg": 41
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 39,
+        "max": 44,
+        "avg": 42
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 38,
+        "max": 42,
+        "avg": 40
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 39,
+        "max": 45,
+        "avg": 42
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 39,
+        "max": 44,
+        "avg": 42
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 40,
+        "max": 45,
+        "avg": 43
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 42,
+        "max": 48,
+        "avg": 45
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 41,
+        "max": 46,
+        "avg": 44
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "chingri-mach",
+    "name": "চিংড়ি মাছ (খোলা)",
+    "emoji": "🦐",
+    "category": "mach",
+    "categoryLabel": "মাছ",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 330,
+    "yesterday": 320,
+    "lastWeek": 310,
+    "lastMonth": 300,
+    "change": 3.1,
+    "dir": "up",
+    "description": "চিংড়ি মাছ (খোলা)-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 252,
+    "maxPrice": 367,
+    "avgPrice": 316,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 326,
+        "max": 367,
+        "avg": 347
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 320,
+        "max": 353,
+        "avg": 337
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 259,
+        "max": 298,
+        "avg": 279
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 252,
+        "max": 284,
+        "avg": 268
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 298,
+        "max": 329,
+        "avg": 314
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 301,
+        "max": 339,
+        "avg": 320
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 280,
+        "max": 309,
+        "avg": 295
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 286,
+        "max": 329,
+        "avg": 308
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 298,
+        "max": 336,
+        "avg": 317
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 310,
+        "max": 343,
+        "avg": 327
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 319,
+        "max": 367,
+        "avg": 343
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 313,
+        "max": 353,
+        "avg": 333
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "murgi-r-mangsho",
+    "name": "মুরগির মাংস",
+    "emoji": "🍗",
+    "category": "mangsho",
+    "categoryLabel": "মাংস",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 225,
+    "yesterday": 228,
+    "lastWeek": 220,
+    "lastMonth": 215,
+    "change": -1.3,
+    "dir": "down",
+    "description": "মুরগির মাংস-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 187,
+    "maxPrice": 270,
+    "avgPrice": 224,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 240,
+        "max": 270,
+        "avg": 255
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 235,
+        "max": 260,
+        "avg": 248
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 216,
+        "max": 248,
+        "avg": 232
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 209,
+        "max": 236,
+        "avg": 223
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 203,
+        "max": 224,
+        "avg": 214
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 205,
+        "max": 231,
+        "avg": 218
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 201,
+        "max": 222,
+        "avg": 212
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 205,
+        "max": 236,
+        "avg": 221
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 187,
+        "max": 211,
+        "avg": 199
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 195,
+        "max": 215,
+        "avg": 205
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 218,
+        "max": 250,
+        "avg": 234
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 214,
+        "max": 241,
+        "avg": 228
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "goru-r-mangsho",
+    "name": "গরুর মাংস",
+    "emoji": "🥩",
+    "category": "mangsho",
+    "categoryLabel": "মাংস",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 790,
+    "yesterday": 800,
+    "lastWeek": 780,
+    "lastMonth": 760,
+    "change": -1.2,
+    "dir": "down",
+    "description": "গরুর মাংস-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 705,
+    "maxPrice": 879,
+    "avgPrice": 786,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 780,
+        "max": 879,
+        "avg": 830
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 766,
+        "max": 846,
+        "avg": 806
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 757,
+        "max": 871,
+        "avg": 814
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 735,
+        "max": 829,
+        "avg": 782
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 713,
+        "max": 788,
+        "avg": 751
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 720,
+        "max": 812,
+        "avg": 766
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 705,
+        "max": 780,
+        "avg": 743
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 720,
+        "max": 828,
+        "avg": 774
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 713,
+        "max": 804,
+        "avg": 759
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 743,
+        "max": 821,
+        "avg": 782
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 764,
+        "max": 879,
+        "avg": 822
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 750,
+        "max": 846,
+        "avg": 798
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "khasir-mangsho",
+    "name": "খাসির মাংস",
+    "emoji": "🍖",
+    "category": "mangsho",
+    "categoryLabel": "মাংস",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 1290,
+    "yesterday": 1330,
+    "lastWeek": 1300,
+    "lastMonth": 1280,
+    "change": -3,
+    "dir": "down",
+    "description": "খাসির মাংস-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 1152,
+    "maxPrice": 1436,
+    "avgPrice": 1283,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 1273,
+        "max": 1436,
+        "avg": 1355
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 1250,
+        "max": 1382,
+        "avg": 1316
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 1236,
+        "max": 1422,
+        "avg": 1329
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 1200,
+        "max": 1354,
+        "avg": 1277
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 1164,
+        "max": 1287,
+        "avg": 1226
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 1176,
+        "max": 1326,
+        "avg": 1251
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 1152,
+        "max": 1273,
+        "avg": 1213
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 1176,
+        "max": 1353,
+        "avg": 1265
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 1164,
+        "max": 1313,
+        "avg": 1239
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 1213,
+        "max": 1341,
+        "avg": 1277
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 1248,
+        "max": 1436,
+        "avg": 1342
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 1225,
+        "max": 1381,
+        "avg": 1303
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "hanser-mangsho",
+    "name": "হাঁসের মাংস",
+    "emoji": "🦆",
+    "category": "mangsho",
+    "categoryLabel": "মাংস",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 285,
+    "yesterday": 295,
+    "lastWeek": 310,
+    "lastMonth": 320,
+    "change": -3.4,
+    "dir": "down",
+    "description": "হাঁসের মাংস-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 255,
+    "maxPrice": 317,
+    "avgPrice": 284,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 281,
+        "max": 317,
+        "avg": 299
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 276,
+        "max": 305,
+        "avg": 291
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 273,
+        "max": 314,
+        "avg": 294
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 265,
+        "max": 299,
+        "avg": 282
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 257,
+        "max": 284,
+        "avg": 271
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 260,
+        "max": 293,
+        "avg": 277
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 255,
+        "max": 281,
+        "avg": 268
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 260,
+        "max": 299,
+        "avg": 280
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 257,
+        "max": 290,
+        "avg": 274
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 268,
+        "max": 296,
+        "avg": 282
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 276,
+        "max": 317,
+        "avg": 297
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 271,
+        "max": 305,
+        "avg": 288
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "dim",
+    "name": "ডিম",
+    "emoji": "🥚",
+    "category": "dim-dui",
+    "categoryLabel": "ডিম-দুধ",
+    "unit": "প্রতি ডজন",
+    "unitShort": "ডজন",
+    "price": 158,
+    "yesterday": 152,
+    "lastWeek": 148,
+    "lastMonth": 145,
+    "change": 3.9,
+    "dir": "up",
+    "description": "ডিম-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 134,
+    "maxPrice": 183,
+    "avgPrice": 157,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 156,
+        "max": 176,
+        "avg": 166
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 153,
+        "max": 169,
+        "avg": 161
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 159,
+        "max": 183,
+        "avg": 171
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 154,
+        "max": 174,
+        "avg": 164
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 134,
+        "max": 148,
+        "avg": 141
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 135,
+        "max": 153,
+        "avg": 144
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 141,
+        "max": 156,
+        "avg": 149
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 144,
+        "max": 166,
+        "avg": 155
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 143,
+        "max": 161,
+        "avg": 152
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 149,
+        "max": 164,
+        "avg": 157
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 153,
+        "max": 176,
+        "avg": 165
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 150,
+        "max": 169,
+        "avg": 160
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "dui-dudh",
+    "name": "দুধ",
+    "emoji": "🥛",
+    "category": "dim-dui",
+    "categoryLabel": "ডিম-দুধ",
+    "unit": "প্রতি লিটার",
+    "unitShort": "লিটার",
+    "price": 102,
+    "yesterday": 100,
+    "lastWeek": 98,
+    "lastMonth": 96,
+    "change": 2,
+    "dir": "up",
+    "description": "দুধ-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 91,
+    "maxPrice": 114,
+    "avgPrice": 102,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 101,
+        "max": 114,
+        "avg": 108
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 99,
+        "max": 109,
+        "avg": 104
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 98,
+        "max": 112,
+        "avg": 105
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 95,
+        "max": 107,
+        "avg": 101
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 92,
+        "max": 102,
+        "avg": 97
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 93,
+        "max": 105,
+        "avg": 99
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 91,
+        "max": 101,
+        "avg": 96
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 93,
+        "max": 107,
+        "avg": 100
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 92,
+        "max": 104,
+        "avg": 98
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 96,
+        "max": 106,
+        "avg": 101
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 99,
+        "max": 114,
+        "avg": 107
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 97,
+        "max": 109,
+        "avg": 103
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "doi",
+    "name": "দই",
+    "emoji": "🥣",
+    "category": "dim-dui",
+    "categoryLabel": "ডিম-দুধ",
+    "unit": "প্রতি লিটার",
+    "unitShort": "লিটার",
+    "price": 92,
+    "yesterday": 92,
+    "lastWeek": 90,
+    "lastMonth": 88,
+    "change": 0,
+    "dir": "flat",
+    "description": "দই-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 82,
+    "maxPrice": 102,
+    "avgPrice": 92,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 91,
+        "max": 102,
+        "avg": 97
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 89,
+        "max": 99,
+        "avg": 94
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 88,
+        "max": 101,
+        "avg": 95
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 86,
+        "max": 97,
+        "avg": 92
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 83,
+        "max": 92,
+        "avg": 88
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 84,
+        "max": 95,
+        "avg": 90
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 82,
+        "max": 91,
+        "avg": 87
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 84,
+        "max": 96,
+        "avg": 90
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 83,
+        "max": 94,
+        "avg": 89
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 87,
+        "max": 96,
+        "avg": 92
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 89,
+        "max": 102,
+        "avg": 96
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 87,
+        "max": 98,
+        "avg": 93
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "mokhhan",
+    "name": "মাখন (১০০ গ্রাম)",
+    "emoji": "🧈",
+    "category": "dim-dui",
+    "categoryLabel": "ডিম-দুধ",
+    "unit": "প্রতি পিস",
+    "unitShort": "পিস",
+    "price": 145,
+    "yesterday": 140,
+    "lastWeek": 138,
+    "lastMonth": 135,
+    "change": 3.6,
+    "dir": "up",
+    "description": "মাখন (১০০ গ্রাম)-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 129,
+    "maxPrice": 161,
+    "avgPrice": 144,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 143,
+        "max": 161,
+        "avg": 152
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 141,
+        "max": 155,
+        "avg": 148
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 139,
+        "max": 160,
+        "avg": 150
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 135,
+        "max": 152,
+        "avg": 144
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 131,
+        "max": 145,
+        "avg": 138
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 132,
+        "max": 149,
+        "avg": 141
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 129,
+        "max": 143,
+        "avg": 136
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 132,
+        "max": 152,
+        "avg": 142
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 131,
+        "max": 148,
+        "avg": 140
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 136,
+        "max": 151,
+        "avg": 144
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 140,
+        "max": 161,
+        "avg": 151
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 138,
+        "max": 155,
+        "avg": 147
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "ada",
+    "name": "আদা",
+    "emoji": "🫚",
+    "category": "mosla",
+    "categoryLabel": "মসলা",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 85,
+    "yesterday": 78,
+    "lastWeek": 72,
+    "lastMonth": 70,
+    "change": 9,
+    "dir": "up",
+    "description": "আদা-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 65,
+    "maxPrice": 114,
+    "avgPrice": 86,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 84,
+        "max": 95,
+        "avg": 90
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 82,
+        "max": 91,
+        "avg": 87
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 81,
+        "max": 94,
+        "avg": 88
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 79,
+        "max": 89,
+        "avg": 84
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 77,
+        "max": 85,
+        "avg": 81
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 78,
+        "max": 87,
+        "avg": 83
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 76,
+        "max": 84,
+        "avg": 80
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 77,
+        "max": 89,
+        "avg": 83
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 65,
+        "max": 74,
+        "avg": 70
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 68,
+        "max": 75,
+        "avg": 72
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 99,
+        "max": 114,
+        "avg": 107
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 97,
+        "max": 109,
+        "avg": 103
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "roshun",
+    "name": "রসুন",
+    "emoji": "🧄",
+    "category": "mosla",
+    "categoryLabel": "মসলা",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 125,
+    "yesterday": 135,
+    "lastWeek": 140,
+    "lastMonth": 150,
+    "change": -7.4,
+    "dir": "down",
+    "description": "রসুন-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 112,
+    "maxPrice": 139,
+    "avgPrice": 125,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 123,
+        "max": 139,
+        "avg": 131
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 121,
+        "max": 134,
+        "avg": 128
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 120,
+        "max": 138,
+        "avg": 129
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 116,
+        "max": 131,
+        "avg": 124
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 113,
+        "max": 125,
+        "avg": 119
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 114,
+        "max": 129,
+        "avg": 122
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 112,
+        "max": 123,
+        "avg": 118
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 114,
+        "max": 131,
+        "avg": 123
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 113,
+        "max": 127,
+        "avg": 120
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 118,
+        "max": 130,
+        "avg": 124
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 121,
+        "max": 139,
+        "avg": 130
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 119,
+        "max": 134,
+        "avg": 127
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "morich-gunda",
+    "name": "মরিচ গুঁড়া",
+    "emoji": "🌶️",
+    "category": "mosla",
+    "categoryLabel": "মসলা",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 245,
+    "yesterday": 250,
+    "lastWeek": 240,
+    "lastMonth": 235,
+    "change": -2,
+    "dir": "down",
+    "description": "মরিচ গুঁড়া-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 199,
+    "maxPrice": 305,
+    "avgPrice": 245,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 271,
+        "max": 305,
+        "avg": 288
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 266,
+        "max": 294,
+        "avg": 280
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 235,
+        "max": 270,
+        "avg": 253
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 228,
+        "max": 257,
+        "avg": 243
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 199,
+        "max": 220,
+        "avg": 210
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 201,
+        "max": 227,
+        "avg": 214
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 219,
+        "max": 242,
+        "avg": 231
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 223,
+        "max": 257,
+        "avg": 240
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 221,
+        "max": 249,
+        "avg": 235
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 230,
+        "max": 255,
+        "avg": 243
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 237,
+        "max": 273,
+        "avg": 255
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 233,
+        "max": 262,
+        "avg": 248
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "dhanepata-gunda",
+    "name": "ধনেপাতা গুঁড়া",
+    "emoji": "🍃",
+    "category": "mosla",
+    "categoryLabel": "মসলা",
+    "unit": "প্রতি কেজি",
+    "unitShort": "কেজি",
+    "price": 265,
+    "yesterday": 265,
+    "lastWeek": 258,
+    "lastMonth": 250,
+    "change": 0,
+    "dir": "flat",
+    "description": "ধনেপাতা গুঁড়া-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।",
+    "minPrice": 237,
+    "maxPrice": 295,
+    "avgPrice": 264,
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 262,
+        "max": 295,
+        "avg": 279
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 257,
+        "max": 284,
+        "avg": 271
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 254,
+        "max": 292,
+        "avg": 273
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 247,
+        "max": 278,
+        "avg": 263
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 239,
+        "max": 264,
+        "avg": 252
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 242,
+        "max": 272,
+        "avg": 257
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 237,
+        "max": 262,
+        "avg": 250
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 242,
+        "max": 278,
+        "avg": 260
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 239,
+        "max": 270,
+        "avg": 255
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 249,
+        "max": 275,
+        "avg": 262
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 256,
+        "max": 295,
+        "avg": 276
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 252,
+        "max": 284,
+        "avg": 268
+      }
+    ]
+  }
+]

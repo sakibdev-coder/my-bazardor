@@ -1,46 +1,95 @@
-# বাজার দর / BazarDor
+# 🛒 বাজার দর / BazarDor
 
-বাজার দর বাংলাদেশের নিত্যপ্রয়োজনীয় পণ্যের দৈনিক বাজারদর দেখার একটি responsive web app। পণ্য, ক্যাটাগরি ও বাজারভেদে দাম দ্রুত দেখা যায়, যাতে কেনাকাটার সিদ্ধান্ত আরও সহজ হয়।
+বাজার দর (BazarDor) হলো বাংলাদেশের নিত্যপ্রয়োজনীয় খাদ্যপণ্যের দৈনিক বাজারদর পর্যবেক্ষণের একটি আধুনিক, প্রিমিয়াম ও সম্পূর্ণ রেসপনসিভ ওয়েব অ্যাপ্লিকেশন। পণ্য, বিভাগ, বাজার ও ক্যাটাগরিভেদে নির্ভরযোগ্য তথ্য ও মূল্য পরিবর্তনের গতিবিধি তুলে ধরে সাধারণ ভোক্তাদের কেনাকাটার সিদ্ধান্তকে আরও সহজ ও স্বচ্ছ করাই এই অ্যাপ্লিকেশনের মূল উদ্দেশ্য।
 
-## Technologies
+---
 
-- Next.js 16 App Router and React 19
-- TypeScript
-- Tailwind CSS 4 with custom responsive CSS
-- BazarDor Products API with alternative endpoint and resilient local fallback data
-- Browser-based authentication flow with protected routes and toast feedback
+## 🌟 মূল বৈশিষ্ট্যসমূহ (Key Features)
 
-## Features
+1. **দ্বিমুখী নির্ভরযোগ্য এপিআই ও রিয়েল-টাইম তথ্য ইন্টিগ্রেশন:**
+   - প্রাথমিক এপিআই (`https://api.api-store.workers.dev/api/bazardor`) এবং স্বয়ংক্রিয় অল্টারনেটিভ এপিআই (`https://api.abcz.workers.dev/api/bazardor`) এর সাথে স্থানীয় ৩৩টি পণ্যের অফলাইন ফলব্যাক ডেটাবেজ।
+   - সম্পূর্ণ বাংলা সংখ্যা (০-৯) এবং টাকা/একক ফরম্যাটিং।
 
-1. বাংলা নেভিগেশন, লাইভ price ticker এবং responsive hero section
-2. আজ দাম বেড়েছে / কমেছে এবং সব পণ্যের responsive product grid
-3. Numeric Bengali-safe category sorting এবং skeleton loading states
-4. Dynamic product detail pages with minimum, maximum, average এবং বাজারভিত্তিক দাম
-5. Sign in, sign up, protected profile এবং profile information update flow
-6. Friendly 404 page এবং invalid category/product handling
+2. **লাইভ মারকুই প্রাইস টিকার ও রেসপনসিভ ন্যাভবার:**
+   - ফিগমা ডিজাইনের আদলে বাংলা তারিখ (`আজ ২৪ আশ্বিন ১৪৩৩`) সম্বলিত ব্র্যান্ড লোগো।
+   - ৮টি সুনির্দিষ্ট ক্যাটাগরি নেভিগেশন (চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম-দুধ, মসলা) যেখানে সক্রিয় ক্যাটাগরি হাইলাইটেড।
+   - স্বয়ংক্রিয় ইনফিনিট স্ক্রলিং প্রাইস টিকার (`emoji + name + দাম টাকা/একক + ▲/▼ %`)।
 
-## API
+3. **আজকের দাম পরিবর্তন ও সব পণ্যের ডায়নামিক গ্রিড:**
+   - **আজ দাম বেড়েছে ▲:** শীর্ষ ৬টি সর্বোচ্চ মূল্যবৃদ্ধি পাওয়া পণ্য।
+   - **আজ দাম কমেছে ▼:** শীর্ষ ৬টি সর্বোচ্চ মূল্যহ্রাস পাওয়া পণ্য।
+   - **সব পণ্য (#সব-পণ্য):** ৩-৪ কলামের রেসপনসিভ গ্রিড যাতে রয়েছে স্মুথ ট্রানজিশন, কারেন্সি ব্যাজ এবং কাস্টম স্কেলিটন লোডার।
 
-The app reads products from the primary endpoint and falls back to the alternative when necessary:
+4. **সুরক্ষিত পণ্য বিবরণী ও বাজারভিত্তিক মূল্যতালিকা (/product/[slug]):**
+   - অথেনটিকেশন দ্বারা সুরক্ষিত রাউট (লগইন ছাড়া প্রবেশে টোস্ট অ্যালার্ট ও সাইন-ইন রিডাইরেক্ট)।
+   - শীর্ষ সারসংক্ষেপ: ইমোজি, নাম, বিবরণ, ক্যাটাগরি ট্যাগ, একক ও মূল্য পরিবর্তন।
+   - মূল্য বিশ্লেষণ: সর্বনিম্ন দাম, সর্বোচ্চ দাম ও গড় বাজারদর।
+   - **বাজারভিত্তিক আজকের দাম:** কারওয়ান বাজার, গ্রীন মার্কেট মিরপুর, চট্টগ্রাম, রাজশাহী, ময়মনসিংহ, খুলনা, সিলেটসহ দেশের শীর্ষ ১২টি প্রধান পাইকারি ও খুচরা বাজারের সরাসরি মূল্য তালিকা।
 
-- `https://api.api-store.workers.dev/api/bazardor`
-- `https://api.abcz.workers.dev/api/bazardor`
+5. **ক্যাটাগরি পেজ ও চ্যালেঞ্জ ১ (C1) নিউমেরিক সর্টিং ড্রপডাউন:**
+   - ক্যাটাগরি অনুযায়ী পণ্য ফিল্টারিং ও স্কেলিটন লোডিং স্টেট।
+   - **সাজান ড্রপডাউন:** `ডিফল্ট`, `দাম: কম থেকে বেশি`, এবং `দাম: বেশি থেকে কম` (বাংলা সংখ্যার সাংখ্যিক মানের সঠিক ক্রমানুসারে সাজানো)।
+   - খালি ক্যাটাগরি বা ভুল স্লাগের জন্য ফ্রেন্ডলি ৪০৪ এম্পটি স্টেট ও "হোম পেজে ফিরে যান" বাটন।
 
-Supported resources include `/products`, `/products?category=chal`, `/products/1`, `/categories`, and `/categories/chal`.
+6. **BetterAuth ইন্টিগ্রেশন ও চ্যালেঞ্জ ৩ (C3) তথ্য আপডেট ফিচার:**
+   - ইমেইল/পাসওয়ার্ড ভ্যালিডেশন এবং Google ও GitHub সোশ্যাল লগইন সমর্থন।
+   - সুরক্ষিত প্রোফাইল পেজ (`/profile`) এবং পৃথক তথ্য আপডেট রাউট (`/profile/update`)।
+   - BetterAuth এর `authClient.updateUser({ name })` স্পেসিফিকেশন অনুযায়ী প্রোফাইল নাম তাৎক্ষণিক আপডেট ও টোস্ট ফিডব্যাক।
 
-## Project highlights
+7. **সর্বজনীন ডিভাইসে রেসপনসিভনেস ও ফ্রেন্ডলি ৪০৪:**
+   - মোবাইল, ট্যাবলেট এবং ডেস্কটপে পারফেক্ট লেআউট এবং Vercel ডিপ্লয়মেন্টে পেজ রিফ্রেশেও ডায়নামিক রাউটসমূহ নিরবচ্ছিন্নভাবে কার্যকর।
 
-- Mobile-first responsive navigation, ticker, hero and product grids
-- Bengali numeral formatting for prices, percentages and market summaries
-- Dynamic product and category routes with loading states and friendly 404 handling
-- Login, registration, protected product details, profile and profile update journeys
-- Live API normalization with a local fallback so the UI remains usable during outages
+---
 
-## Run locally
+## 🛠️ ব্যবহৃত প্রযুক্তিসমূহ (Technologies Used)
 
+- **ফ্রেমওয়ার্ক:** [Next.js 16](https://nextjs.org/) (App Router & Turbopack)
+- **লাইব্রেরি:** [React 19](https://react.dev/)
+- **টাইপসেফটি:** [TypeScript](https://www.typescriptlang.org/)
+- **স্টাইলিং:** Vanilla Modern CSS Tokens + [Tailwind CSS 4](https://tailwindcss.com/)
+- **অথেনটিকেশন:** [BetterAuth](https://better-auth.com/) (Client & Next.js API Routes)
+- **নোটিফিকেশন:** [react-hot-toast](https://react-hot-toast.com/)
+- **আইকন ও ইমোজি:** Noto Bengali Typography & Curated Emojis
+
+---
+
+## 📡 এপিআই এন্ডপয়েন্ট (API Endpoints)
+
+- **Primary Base URL:** `https://api.api-store.workers.dev/api/bazardor`
+- **Alternative Base URL:** `https://api.abcz.workers.dev/api/bazardor`
+
+| এন্ডপয়েন্ট | বিবরণ |
+|---|---|
+| `/products` | সকল পণ্যের তালিকা (৩৩টি পণ্য) |
+| `/products?category=chal` | ক্যাটাগরি অনুযায়ী ফিল্টার করা তালিকা |
+| `/products/1` | একক পণ্যের বিস্তারিত তথ্য ও বাজারভিত্তিক দর |
+| `/categories` | সকল ক্যাটাগরির তালিকা (৮টি ক্যাটাগরি) |
+| `/categories/chal` | নির্দিষ্ট ক্যাটাগরির তথ্য |
+
+---
+
+## 🚀 লোকাল সেটআপ ও রান করার নিয়ম (Run Locally)
+
+১. ডিপোজিটরি ক্লোন করুন:
+```bash
+git clone https://github.com/ProgrammingHero1/B14-A7-Bazar-Dor.git
+cd my-bazardor
+```
+
+২. প্রয়োজনীয় ডিপেনডেন্সি ইনস্টল করুন:
 ```bash
 npm install
+```
+
+৩. ডেভেলপমেন্ট সার্ভার চালু করুন:
+```bash
 npm run dev
 ```
 
-Open `http://localhost:3000` in your browser.
+৪. ব্রাউজারে `http://localhost:3000` ওপেন করে অ্যাপ্লিকেশনটি ব্যবহার করুন।
+
+৫. প্রোডাকশন বিল্ড যাচাই করতে:
+```bash
+npm run build
+npm run start
+```

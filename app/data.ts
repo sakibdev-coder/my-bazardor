@@ -1,3 +1,14 @@
+import fallbackProductsData from "./fallback-products.json";
+import fallbackCategoriesData from "./fallback-categories.json";
+
+export type MarketInfo = {
+  market: string;
+  division: string;
+  min: number;
+  max: number;
+  avg: number;
+};
+
 export type Product = {
   id: number;
   slug: string;
@@ -6,33 +17,206 @@ export type Product = {
   category: string;
   categoryLabel: string;
   unit: string;
+  unitShort: string;
   price: number;
+  yesterday?: number;
+  lastWeek?: number;
+  lastMonth?: number;
   change: number;
+  dir: "up" | "down" | "flat";
   description: string;
-  markets: { name: string; area: string; price: number; updated: string }[];
+  minPrice: number;
+  maxPrice: number;
+  avgPrice: number;
+  markets: MarketInfo[];
 };
 
-export const products: Product[] = [
-  { id: 1, slug: "miniket-chal", name: "মিনিকেট চাল", emoji: "🍚", category: "chal", categoryLabel: "চাল", unit: "প্রতি কেজি", price: 78, change: 2.1, description: "নিত্যদিনের পছন্দের সরু চাল, পরিষ্কার ও ঝরঝরে।", markets: [{ name: "কারওয়ান বাজার", area: "ঢাকা", price: 78, updated: "১০ মিনিট আগে" }, { name: "মিরপুর ১ বাজার", area: "ঢাকা", price: 80, updated: "২৪ মিনিট আগে" }, { name: "চট্টগ্রাম রিয়াজউদ্দিন", area: "চট্টগ্রাম", price: 76, updated: "৪০ মিনিট আগে" }] },
-  { id: 2, slug: "soyabean-tel", name: "সয়াবিন তেল", emoji: "🫙", category: "tel", categoryLabel: "তেল", unit: "প্রতি লিটার", price: 172, change: -1.4, description: "পরিবারের প্রতিদিনের রান্নার নির্ভরযোগ্য তেল।", markets: [{ name: "নিউ মার্কেট", area: "ঢাকা", price: 172, updated: "১২ মিনিট আগে" }, { name: "বহদ্দারহাট", area: "চট্টগ্রাম", price: 175, updated: "৩১ মিনিট আগে" }] },
-  { id: 3, slug: "aloo", name: "আলু", emoji: "🥔", category: "sobji", categoryLabel: "সবজি", unit: "প্রতি কেজি", price: 32, change: -3.2, description: "দেশি গোল আলু, আজকের বাজারে সবচেয়ে ভালো দামে।", markets: [{ name: "কারওয়ান বাজার", area: "ঢাকা", price: 32, updated: "৮ মিনিট আগে" }, { name: "খুলনা বড় বাজার", area: "খুলনা", price: 35, updated: "৫২ মিনিট আগে" }] },
-  { id: 4, slug: "peyaj", name: "পেঁয়াজ", emoji: "🧅", category: "sobji", categoryLabel: "সবজি", unit: "প্রতি কেজি", price: 88, change: 4.8, description: "দেশি পেঁয়াজের আজকের পাইকারি ও খুচরা দর।", markets: [{ name: "শ্যামবাজার", area: "ঢাকা", price: 88, updated: "১৫ মিনিট আগে" }, { name: "চকবাজার", area: "চট্টগ্রাম", price: 92, updated: "৪৫ মিনিট আগে" }] },
-  { id: 5, slug: "morich", name: "কাঁচা মরিচ", emoji: "🌶️", category: "sobji", categoryLabel: "সবজি", unit: "প্রতি কেজি", price: 210, change: 6.3, description: "ঝাল-ঝাল সতেজ কাঁচা মরিচ, বাজারদর প্রতিদিন আপডেট।", markets: [{ name: "কারওয়ান বাজার", area: "ঢাকা", price: 210, updated: "৬ মিনিট আগে" }, { name: "মৌলভীবাজার", area: "সিলেট", price: 225, updated: "১ ঘণ্টা আগে" }] },
-  { id: 6, slug: "ilish", name: "ইলিশ মাছ", emoji: "🐟", category: "mach", categoryLabel: "মাছ", unit: "প্রতি কেজি", price: 1850, change: -2.9, description: "নদীর রুপালি স্বাদ, আকারভেদে দামের সামান্য পার্থক্য।", markets: [{ name: "যাত্রাবাড়ী মাছ বাজার", area: "ঢাকা", price: 1850, updated: "২০ মিনিট আগে" }, { name: "আগ্রাবাদ", area: "চট্টগ্রাম", price: 1920, updated: "৫৫ মিনিট আগে" }] },
-  { id: 7, slug: "murgi", name: "ব্রয়লার মুরগি", emoji: "🍗", category: "mangsho", categoryLabel: "মাংস", unit: "প্রতি কেজি", price: 198, change: 1.7, description: "তাজা ব্রয়লার মুরগির গড় বাজারদর।", markets: [{ name: "মোহাম্মদপুর টাউন হল", area: "ঢাকা", price: 198, updated: "১৮ মিনিট আগে" }] },
-  { id: 8, slug: "dim", name: "ফার্মের ডিম", emoji: "🥚", category: "dim", categoryLabel: "ডিম", unit: "প্রতি ডজন", price: 145, change: -0.8, description: "ফার্মের ডিম, এক ডজনের আজকের গড় দাম।", markets: [{ name: "উত্তরা রাজলক্ষ্মী", area: "ঢাকা", price: 145, updated: "২৭ মিনিট আগে" }] },
-  { id: 9, slug: "roshun", name: "রসুন", emoji: "🧄", category: "moshla", categoryLabel: "মসলা", unit: "প্রতি কেজি", price: 230, change: 0, description: "দেশি রসুনের পরিচিত সুবাস ও স্বাদ।", markets: [{ name: "শ্যামবাজার", area: "ঢাকা", price: 230, updated: "১ ঘণ্টা আগে" }] },
-  { id: 10, slug: "ada", name: "আদা", emoji: "🫚", category: "moshla", categoryLabel: "মসলা", unit: "প্রতি কেজি", price: 260, change: -1.1, description: "সতেজ আদা, রান্নাঘরের প্রতিদিনের সঙ্গী।", markets: [{ name: "মৌলভীবাজার", area: "সিলেট", price: 260, updated: "৪০ মিনিট আগে" }] },
-];
+export type Category = {
+  id: string;
+  slug: string;
+  label: string;
+  nameBn: string;
+  icon: string;
+};
 
-export const categories = [
-  { slug: "sobji", label: "সবজি", icon: "🥬" },
-  { slug: "chal", label: "চাল", icon: "🍚" },
-  { slug: "mach", label: "মাছ", icon: "🐟" },
-  { slug: "mangsho", label: "মাংস", icon: "🍗" },
-  { slug: "dim", label: "ডিম", icon: "🥚" },
-  { slug: "moshla", label: "মসলা", icon: "🌶️" },
-];
+export const categories: Category[] = (fallbackCategoriesData as Array<{ id: string; slug: string; nameBn: string; icon: string }>).map((c) => ({
+  id: c.id,
+  slug: c.slug,
+  label: c.nameBn,
+  nameBn: c.nameBn,
+  icon: c.icon,
+}));
 
-export const toBangla = (value: number | string) => String(value).replace(/[0-9]/g, (digit) => "০১২৩৪৫৬৭৮৯"[Number(digit)]);
-export const money = (value: number) => `${toBangla(value.toLocaleString("en-US"))} টাকা`;
+export const categoryAliases: Record<string, string> = {
+  dim: "dim-dui",
+  moshla: "mosla",
+  sobji: "sobji",
+  chal: "chal",
+  mach: "mach",
+  mangsho: "mangsho",
+  dal: "dal",
+  tel: "tel",
+  "dim-dui": "dim-dui",
+  mosla: "mosla",
+};
+
+export function resolveCategorySlug(slug: string): string {
+  return categoryAliases[slug] || slug;
+}
+
+export function getCategoryBySlug(slug: string): Category | undefined {
+  const resolved = resolveCategorySlug(slug);
+  return categories.find((c) => c.slug === resolved);
+}
+
+export const products: Product[] = fallbackProductsData as unknown as Product[];
+
+export const toBangla = (value: number | string): string => {
+  return String(value).replace(/[0-9]/g, (digit) => "০১২৩৪৫৬৭৮৯"[Number(digit)]);
+};
+
+export const money = (value: number): string => {
+  const rounded = Math.round(value);
+  return `${toBangla(rounded.toLocaleString("en-US"))} টাকা`;
+};
+
+export function formatChange(changeVal: number | { dir?: string; pct?: number }): {
+  badge: string;
+  dir: "up" | "down" | "flat";
+  pct: number;
+} {
+  let pct = 0;
+  let dir: "up" | "down" | "flat" = "flat";
+
+  if (typeof changeVal === "object" && changeVal !== null) {
+    pct = Number(changeVal.pct || 0);
+    dir = (changeVal.dir as "up" | "down" | "flat") || (pct > 0 ? "up" : pct < 0 ? "down" : "flat");
+  } else {
+    pct = Number(changeVal || 0);
+    dir = pct > 0 ? "up" : pct < 0 ? "down" : "flat";
+  }
+
+  if (pct > 0 || dir === "up") {
+    return {
+      badge: `▲ ${toBangla(Math.abs(pct).toFixed(1))}%`,
+      dir: "up",
+      pct,
+    };
+  }
+
+  if (pct < 0 || dir === "down") {
+    return {
+      badge: `▼ ${toBangla(Math.abs(pct).toFixed(1))}%`,
+      dir: "down",
+      pct,
+    };
+  }
+
+  return {
+    badge: `—০.০%`,
+    dir: "flat",
+    pct: 0,
+  };
+}
+
+export function parseUnit(rawUnit?: string): { full: string; short: string } {
+  const u = (rawUnit || "").toLowerCase().trim();
+  if (u === "kg" || u.includes("কেজি")) return { full: "প্রতি কেজি", short: "কেজি" };
+  if (u === "litre" || u === "liter" || u.includes("লিটার")) return { full: "প্রতি লিটার", short: "লিটার" };
+  if (u === "dozen" || u.includes("ডজন")) return { full: "প্রতি ডজন", short: "ডজন" };
+  if (u === "piece" || u.includes("পিস")) return { full: "প্রতি পিস", short: "পিস" };
+  if (u.startsWith("প্রতি ")) return { full: u, short: u.replace("প্রতি ", "") };
+  return { full: rawUnit ? `প্রতি ${rawUnit}` : "প্রতি কেজি", short: rawUnit || "কেজি" };
+}
+
+export function getBanglaDate(): string {
+  const now = new Date();
+  const days = ["রবিবার", "সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার"];
+  const months = [
+    "জানুয়ারি", "ফেব্রুয়ারি", "মার্চ", "এপ্রিল", "মে", "জুন",
+    "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"
+  ];
+  const dayName = days[now.getDay()];
+  const dateNum = toBangla(now.getDate());
+  const monthName = months[now.getMonth()];
+  const yearNum = toBangla(now.getFullYear());
+  return `${dayName}, ${dateNum} ${monthName}, ${yearNum}`;
+}
+
+type ApiProduct = {
+  id?: number;
+  slug?: string;
+  name?: string;
+  nameBn?: string;
+  category?: string;
+  categoryLabel?: string;
+  categoryNameBn?: string;
+  categoryIcon?: string;
+  unit?: string;
+  emoji?: string;
+  image?: string;
+  price?: number;
+  today?: number;
+  yesterday?: number;
+  lastWeek?: number;
+  lastMonth?: number;
+  change?: number | { dir?: string; pct?: number };
+  markets?: { market: string; division: string; min: number; max: number }[];
+};
+
+export function normalizeProduct(item: ApiProduct, index: number): Product {
+  const fallback = products[index % products.length];
+  const unitInfo = parseUnit(item.unit || fallback.unitShort);
+  const price = Number(item.today ?? item.price ?? fallback.price);
+
+  let change = 0;
+  let dir: "up" | "down" | "flat" = "flat";
+  if (typeof item.change === "object" && item.change !== null) {
+    change = Number(item.change.pct || 0);
+    dir = (item.change.dir as "up" | "down" | "flat") || (change > 0 ? "up" : change < 0 ? "down" : "flat");
+  } else if (typeof item.change === "number") {
+    change = item.change;
+    dir = change > 0 ? "up" : change < 0 ? "down" : "flat";
+  } else {
+    change = fallback.change;
+    dir = fallback.dir;
+  }
+
+  const markets: MarketInfo[] = item.markets?.length
+    ? item.markets.map((m) => ({
+        market: m.market,
+        division: m.division,
+        min: Number(m.min),
+        max: Number(m.max),
+        avg: Math.round((Number(m.min) + Number(m.max)) / 2),
+      }))
+    : fallback.markets;
+
+  const minPrice = markets.length ? Math.min(...markets.map((m) => m.min)) : price;
+  const maxPrice = markets.length ? Math.max(...markets.map((m) => m.max)) : price;
+  const avgPrice = markets.length ? Math.round(markets.reduce((s, m) => s + m.avg, 0) / markets.length) : price;
+
+  const name = item.nameBn || item.name || fallback.name;
+
+  return {
+    id: Number(item.id || index + 1),
+    slug: item.slug || fallback.slug,
+    name,
+    emoji: item.image || item.emoji || item.categoryIcon || fallback.emoji,
+    category: item.category || fallback.category,
+    categoryLabel: item.categoryNameBn || item.categoryLabel || fallback.categoryLabel,
+    unit: unitInfo.full,
+    unitShort: unitInfo.short,
+    price: Number.isFinite(price) ? price : fallback.price,
+    yesterday: item.yesterday,
+    lastWeek: item.lastWeek,
+    lastMonth: item.lastMonth,
+    change,
+    dir,
+    description: `${name}-এর আজকের বাজারদর ও দেশের প্রধান বাজারগুলোর তথ্য।`,
+    minPrice,
+    maxPrice,
+    avgPrice,
+    markets,
+  };
+}
