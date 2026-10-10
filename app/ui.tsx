@@ -7,13 +7,44 @@ import { Toaster, toast } from "react-hot-toast";
 import {
   categories,
   formatChange,
-  getBanglaDate,
   money,
   normalizeProduct,
   Product,
   products,
 } from "./data";
 import { clearClientSession, getClientSession, UserSession } from "@/lib/auth-client";
+
+function formatCurrentDateTime(date: Date) {
+  const dateText = new Intl.DateTimeFormat("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "Asia/Dhaka",
+  }).format(date);
+  const timeText = new Intl.DateTimeFormat("bn-BD", {
+    hour: "numeric",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: true,
+    timeZone: "Asia/Dhaka",
+  }).format(date);
+
+  return `আজ ${dateText} · ${timeText}`;
+}
+
+export function LiveDateTime() {
+  const [dateTime, setDateTime] = useState<string | null>(null);
+
+  useEffect(() => {
+    const updateDateTime = () => setDateTime(formatCurrentDateTime(new Date()));
+    updateDateTime();
+    const interval = window.setInterval(updateDateTime, 1000);
+
+    return () => window.clearInterval(interval);
+  }, []);
+
+  return <small className="live-date-time">{dateTime ?? "তারিখ ও সময় লোড হচ্ছে..."}</small>;
+}
 
 export function Header() {
   const pathname = usePathname();
@@ -75,7 +106,7 @@ export function Header() {
             </div>
             <div className="brand-text-col">
               <strong className="brand-title">বাজার দর</strong>
-              <span className="brand-date">{getBanglaDate()}</span>
+              <LiveDateTime />
             </div>
           </Link>
 

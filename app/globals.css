@@ -1,4 +1,5 @@
 @import "tailwindcss";
+.live-date-time { white-space:nowrap; }
 
 :root {
   --ink: #18241f;
